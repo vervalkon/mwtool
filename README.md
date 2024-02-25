@@ -15,4 +15,4 @@ A file decompressor/dumper for Mario &amp; Wario
 3. how to recompress?
    * see above
 4. which file is which?
-   * see ROMMAP.md
+   * see ROMMAP.txt
