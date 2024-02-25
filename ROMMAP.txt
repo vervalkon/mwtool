@@ -1,0 +1,225 @@
+(r means raw, c means compressed)
+
+00000000 r - code, data. 
+...
+0000FFFF r - code, data. Debug symbols?
+
+00010000 r - SPC data
+...
+0003FFFF r - SPC data
+
+
+00040000 c - Level data of Stage 1 - 1
+000406DE c - Level data of Stage 1 - 2
+00040E14 c - Level data of Stage 1 - 3
+0004153A c - Level data of Stage 1 - 4
+00041C2A c - Level data of Stage 1 - 5
+00042322 c - Level data of Stage 1 - 6
+00042A7E c - Level data of Stage 1 - 7
+000431BE c - Level data of Stage 1 - 8
+000438AC c - Level data of Stage 1 - 9
+00043FE4 c - Level data of Stage 1 - 10
+000446B8 c - Level data of Stage 2 - 1
+00044F52 c - Level data of Stage 2 - 2
+0004589C c - Level data of Stage 2 - 3
+00046240 c - Level data of Stage 2 - 4
+00046C2E c - Level data of Stage 2 - 5
+000475EC c - Level data of Stage 2 - 6
+00048000 c - Level data of Stage 2 - 7
+00048ABC c - Level data of Stage 2 - 8
+00049390 c - Level data of Stage 2 - 9
+00049C6C c - Level data of Stage 2 - 10
+0004A68C c - Level data of Stage 3 - 1
+0004B038 c - Level data of Stage 3 - 2
+0004B9E0 c - Level data of Stage 3 - 3
+0004C388 c - Level data of Stage 3 - 4
+0004CD44 c - Level data of Stage 3 - 5
+0004D704 c - Level data of Stage 3 - 6
+0004E0D0 c - Level data of Stage 3 - 7
+0004EAA6 c - Level data of Stage 3 - 8
+0004F3B6 c - Level data of Stage 3 - 9
+00050000 c - Level data of Stage 3 - 10
+00050AB2 c - Level data of Stage 4 - 1
+000513DA c - Level data of Stage 4 - 2
+00051D38 c - Level data of Stage 4 - 3
+000525F0 c - Level data of Stage 4 - 4
+00052F30 c - Level data of Stage 4 - 5
+000538AA c - Level data of Stage 4 - 6
+00054252 c - Level data of Stage 4 - 7
+00054BF2 c - Level data of Stage 4 - 8
+000554A0 c - Level data of Stage 4 - 9
+00055DE2 c - Level data of Stage 4 - 10
+00056712 c - Level data of Stage 5 - 1
+000570D2 c - Level data of Stage 5 - 2
+00058000 c - Level data of Stage 5 - 3
+000588EC c - Level data of Stage 5 - 4
+0005916A c - Level data of Stage 5 - 5
+000599BA c - Level data of Stage 5 - 6
+0005A380 c - Level data of Stage 5 - 7
+0005AD58 c - Level data of Stage 5 - 8
+0005B5BC c - Level data of Stage 5 - 9
+0005BE74 c - Level data of Stage 5 - 10
+0005C708 c - Level data of Stage 6 - 1
+0005D1CC c - Level data of Stage 6 - 2
+0005DAA4 c - Level data of Stage 6 - 3
+0005E4E8 c - Level data of Stage 6 - 4
+0005ED5C c - Level data of Stage 6 - 5
+0005F58E c - Level data of Stage 6 - 6
+00060000 c - Level data of Stage 6 - 7
+00060932 c - Level data of Stage 6 - 8
+000614BC c - Level data of Stage 6 - 9
+00061E7A c - Level data of Stage 6 - 10
+000627BC c - Level data of Stage 7 - 1
+0006321E c - Level data of Stage 7 - 2
+00063CBC c - Level data of Stage 7 - 3
+000646F6 c - Level data of Stage 7 - 4
+000651B0 c - Level data of Stage 7 - 5
+00065C16 c - Level data of Stage 7 - 6
+000667F8 c - Level data of Stage 7 - 7
+0006739A c - Level data of Stage 7 - 8
+00068000 c - Level data of Stage 7 - 9
+00068904 c - Level data of Stage 7 - 10
+000696E0 c - Level data of Stage 8 - 1
+00069FF0 c - Level data of Stage 8 - 2
+0006A998 c - Level data of Stage 8 - 3
+0006B1D6 c - Level data of Stage 8 - 4
+0006BC04 c - Level data of Stage 8 - 5
+0006C5C6 c - Level data of Stage 8 - 6
+0006D12C c - Level data of Stage 8 - 7
+0006D9FE c - Level data of Stage 8 - 8
+0006E298 c - Level data of Stage 8 - 9
+0006EBD2 c - Level data of Stage 8 - 10
+0006F642 c - Level data of Stage 9 - 1
+00070000 c - Level data of Stage 9 - 2
+000709BA c - Level data of Stage 9 - 3
+000713F0 c - Level data of Stage 9 - 4
+00072090 c - Level data of Stage 9 - 5
+000728DE c - Level data of Stage 9 - 6
+000731A6 c - Level data of Stage 9 - 7
+00073B4A c - Level data of Stage 9 - 8
+0007440E c - Level data of Stage 9 - 9
+00074CAC c - Level data of Stage 9 - 10
+0007565C c - Level data of Stage 10 - 1
+000760DE c - Level data of Stage 10 - 2
+00076B5C c - Level data of Stage 10 - 3
+00077572 c - Level data of Stage 10 - 4
+00078000 c - Level data of Stage 10 - 5
+00078A54 c - Level data of Stage 10 - 6
+000793A4 c - Level data of Stage 10 - 7
+00079F4A c - Level data of Stage 10 - 8
+0007A9E0 c - Level data of Stage 10 - 9
+0007B1EC c - Level data of Stage 10 - 10
+0007BC50 c - Level data of Stage EX - 1
+0007C570 c - Level data of Stage EX - 2
+0007CFE8 c - Level data of Stage EX - 3
+0007D906 c - Level data of Stage EX - 4
+0007E332 c - Level data of Stage EX - 5
+0007EDEE c - Level data of Stage EX - 6
+00080000 c - Level data of Stage EX - 7
+00080998 c - Level data of Stage EX - 8
+00081242 c - Level data of Stage EX - 9
+00081D8E c - Level data of Stage EX - 10
+
+00082B96 c - Tilemap of JP title
+00082E76 c - Tilemap of US title
+0008319C c - Tilemap of ?
+00083326 c - Tilemap of ?
+00083534 c - Tilemap of ?
+00083894 c - Tilemap of ?
+
+00083BA4 c - Blockmaps of Stage 1
+000848B8 c - Blockmaps of Stage 2
+00085528 c - Blockmaps of Stage 3
+00085EBA c - Blockmaps of Stage 4
+00086B38 c - Blockmaps of Stage 5
+00088000 c - Blockmaps of Stage 6
+00088C6A c - Blockmaps of Stage 7
+00089616 c - Blockmaps of Stage 8
+0008A370 c - Blockmaps of Stage 9
+0008AB90 c - Blockmaps of Stage 10
+0008B5B6 c - Blockmaps of Stage EX
+
+0008C092 c - Tilemap of character selection screen
+0008C458 c - Tilemap of level selection screen
+0008CA62 c - Tilemap of ending cutscene screen
+0008CDB6 c - Tilemap of title screen layer 2 (Mario with Wario)
+0008D1B2 c - Tilemap of title screen layer 2 (Mario with Wario with the text "EXTRA")
+0008D5D6 c - looping clouds
+0008D934 c - two maps of clouds with M, ending
+0008DF92 c - weird map
+0008E0B2 c - Ending stat screen
+0008E3E0 c - Continue/End screen
+0008E75C c - ?
+0008E89C c - Antipiracy
+0008EBF6 c - ?
+
+00090000 c - Room tile graphics
+000921C2 c - JP title tile graphics
+00092FD2 c - US title tile graphics
+0009410C c - Cutscene tile, font graphics
+00094816 c - Thank you for playing tile graphics
+000951A0 c - Wanda with sign tile graphics
+00095C5A c - Wanda with sign, congratulations, characters tile graphics
+00098000 c - Stage 1 background tile graphics
+00099516 c - Stage 2 background tile graphics
+0009A4D4 c - Stage 3 background tile graphics
+0009B58E c - Stage 4 background tile graphics
+0009C662 c - Stage 5 background tile graphics
+0009DB7A c - Stage 6 background tile graphics
+000A0000 c - Stage 7 background tile graphics
+000A0EBC c - Stage 8 background tile graphics
+000A1D1C c - Stage 9 background tile graphics
+000A2FC0 c - Stage 10 background tile graphics
+000A3F3E c - Stage EX background tile graphics
+000A47E6 c - Character selection tile graphics
+000A585A c - Level select tile graphics
+000A6C58 c - Tiles, clouds, congratulations tile graphics (?)
+000A8000 c - Title screen tile graphics
+000A959A c - Ending 1 tile graphics
+000A9FDE c - Ending 2 tile graphics
+000AACD4 c - Ending stat screen tile graphics
+000ABCF0 c - 2bpp font, game over, the end, font, etc. tile graphics
+000ACA82 c - 2bpp tall font, antipiracy text tile graphics
+
+000AD250 c - Empty VRAM slot for player gfx, common sprite gfx (time blocks, enemies, Luigi, Wanda, etc.)
+000AF38E c - Princess slot graphics
+000B0000 c - Mario slot graphics
+000B0A38 c - Yoshi slot graphics
+000B147E c - Weird Wanda slot graphics
+000B1F4A c - Character select sprite graphics incl. Wanda
+000B3BAE c - Wario flying, bucket sprite graphics
+000B4BF2 c - Wario minigame sprite graphics
+000B8000 c - Ending cutscene 1 sprite graphics
+000BA45C c - Ending cutscene 2 sprite graphics
+000BC646 c - Different kinds of buckets sprite graphics
+000BE0EE c - SNES Mouse BIOS graphics
+000BECC4 c - One last weird tilemap
+
+000BEE0E r - Palettes
+000BF00E r - Palettes
+000BF20E r - Palettes
+000BF40E r - Palettes
+000BF60E r - Palettes
+000BF80E r - Palettes
+000BFA0E r - Palettes
+000BFC0E r - Palettes
+000C0000 r - Palettes
+000C0200 r - Palettes
+000C0400 r - Palettes
+000C0600 r - Palettes
+000C0800 r - Palettes
+000C0A00 r - Palettes
+000C0C00 r - Palettes
+000C0E00 r - Palettes
+000C1000 r - Palettes
+000C1200 r - Palettes
+000C1400 r - Palettes
+000C1600 r - Palettes
+000C1800 r - Palettes
+000C1A00 r - Palettes
+000C1C00 r - Palettes
+000C1E00 r - Palettes
+000C2000 r - Palettes
+000C2200 r - Palettes
+000C2400 r - Palettes
+000C2600 r - Palettes
