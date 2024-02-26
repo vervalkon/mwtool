@@ -1,6 +1,10 @@
 (r means raw, c means compressed)
 
 00000000 r - code, data. 
+0000B7CE r - Distance table (NEEDED FOR DECOMPRESSION!!!!)
+0000B7EE r - Table of Contents (all pointers)
+0000BB32 r - some sort of secondary pointer table/entries? RAM stuff? 7E/7F prefixes present
+0000BB8A r - data
 ...
 0000FFFF r - code, data. Debug symbols?
 
